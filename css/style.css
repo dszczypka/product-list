@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #98fb98;
+	position: absolute;
+}
+
+.box-item{
+	width: 250px;
+	height: 250px;
+	margin-top: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 200px;
+	display: inline-block;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.box-item-mask{
+	background-color: rgba(255, 102, 0, 0.2);
+	opacity: 0;
+	position: relative;
+	transition: all 0.3s;
+	height: 100%;
+	font-size: 3em;
+	text-align: center;
+
+}
+
+.box-item-mask i{
+	color: #fff;
+	margin: 40%;
+	
+}
+
+.box-item-mask:hover{
+	opacity: 1;
+}
+
+
+#product-1{
+	background-image: url(../img/product-1.jpg);
+}
+
+#product-2{
+	background-image: url(../img/product-2.jpg);
+}
+
+#product-3{
+	background-image: url(../img/product-3.jpg);
+}
+
+#product-4{
+	background-image: url(../img/product-4.jpg);
+}
+
+
+/*
+
+.box-item-mask:hover{
+	background-color: rgba(255, 96, 0, 0.5);
+	transition: all 0.2s linear;
+}
+*/
+
+
+
+
+/*
+div:hover{
+	background-color: rgba(255, 111, 0, 0.5);
+	opacity: 0.5;
+	content: "\f07a";
+}
+*/
