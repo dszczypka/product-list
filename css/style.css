@@ -5,6 +5,7 @@
 body{
 	background-color: #98fb98;
 	position: absolute;
+	width: 100%;
 }
 
 .box-item{
@@ -18,6 +19,7 @@ body{
 	position: relative;
 	background-size: cover;
 	background-position: center;
+	overflow: hidden;
 
 }
 

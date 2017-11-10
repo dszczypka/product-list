@@ -1,0 +1,13 @@
+@media(max-width:992px){
+	.box-item{
+		width: 35%;
+		height: 35%;
+	}
+}
+
+@media(max-width:480px){
+	.box-item{
+		width: 80%;
+		height: 250px;
+	}
+}
