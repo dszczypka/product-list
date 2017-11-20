@@ -1,25 +1,29 @@
 *{
-	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
 }
 
 body{
 	background-color: #98fb98;
-	position: absolute;
-	width: 100%;
+}
+
+.container{
+	margin-top: 20vh;
+    width: 100%;
+    height: 100vh;
+    border: 0;
 }
 
 .box-item{
-	width: 250px;
+	width: 20%;;
 	height: 250px;
-	margin-top: 200px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 200px;
+	margin: 2%;
+	border: 0;
 	display: inline-block;
-	position: relative;
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	overflow: hidden;
+
 
 }
 
@@ -28,7 +32,9 @@ body{
 	opacity: 0;
 	position: relative;
 	transition: all 0.3s;
-	height: 100%;
+	transition-property: opacity;
+	height: 250px;
+	width: 100%;
 	font-size: 3em;
 	text-align: center;
 
@@ -36,8 +42,10 @@ body{
 
 .box-item-mask i{
 	color: #fff;
-	margin: 40%;
-	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .box-item-mask:hover{
